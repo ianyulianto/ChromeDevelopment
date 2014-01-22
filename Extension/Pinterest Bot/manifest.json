@@ -1,0 +1,34 @@
+{
+  "manifest_version": 2,
+
+  "name": "Pararaton Bot Extension",
+  "description": "Trial Bot Extension",
+  "version": "0.1",
+
+  // "icons": "",
+
+  "permissions": [
+    "tabs",
+    "*://*/*"
+  ],
+
+  "page_action": {
+    "default_icon": "images/logo_trans.png",
+    "default_title": "Pararaton",
+    "default_popup": "pages/popup.html"
+  }
+  // "background": {
+  //   "script": "./script/background.js",
+  //   "persistent": false
+  // },
+
+  // "content_scripts": [
+  //   {
+  //     "matches": ["*://*/*"],
+  //     "js": [
+  //       "./script/jquery.js", 
+  //       "./script/content.js"
+  //     ]
+  //   }
+  // ]  
+}
